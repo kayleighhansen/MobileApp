@@ -8,13 +8,36 @@
 
     <TextView
         android:id="@+id/textview_second"
-        android:layout_width="161dp"
-        android:layout_height="31dp"
+        android:layout_width="217dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="20dp"
         android:text="Doctor's Note"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="parent"
+        tools:layout_editor_absoluteY="-57dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:hint="Name" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Note" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button_third"
@@ -28,9 +51,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="260dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="172dp"
+        android:layout_width="254dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
         android:text="TextView"
         android:visibility="invisible"
         app:layout_constrainedHeight="false"
@@ -38,13 +61,5 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/textview_second" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="269dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
