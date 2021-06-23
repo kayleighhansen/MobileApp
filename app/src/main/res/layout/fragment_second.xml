@@ -35,31 +35,51 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="New Note" />
+            android:text="newNote" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:text="BBS Medical"
+                android:visibility="invisible"
+                app:layout_constrainedHeight="false" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="254dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:text="To whom it may concern,  Please excuse ________ from work today. It appears that ______ has symptoms of a viral disease that would be a danger to their coworkers as well as a hazard to their own health. It is my professional opinion that ______ should stay home and relax in order to return to full function. I will notify you if their test results come back positive and they require more time off of work to recover.  "
+                android:visibility="invisible"
+                app:layout_constrainedHeight="false" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Dr Benjamin Smith"
+                android:visibility="invisible"
+                app:layout_constrainedHeight="false" />
+
+            <Button
+                android:id="@+id/button_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home" />
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/button_third"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="254dp"
-        android:layout_height="170dp"
-        android:layout_marginTop="200dp"
-        android:text="TextView"
-        android:visibility="invisible"
-        app:layout_constrainedHeight="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/textview_second" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

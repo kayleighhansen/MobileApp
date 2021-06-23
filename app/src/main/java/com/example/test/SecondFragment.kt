@@ -25,17 +25,20 @@ private var _binding: FragmentSecondBinding? = null
     ): View? {
 
       _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        binding.button2.setOnClickListener {
+            newNote()
+        }
       return binding.root
 
     }
 
     /** Called when the user touches the button */
-    fun newNote(view: View) {
-        val textView2 = view.findViewById<TextView>(R.id.textView2)
+     private fun newNote() {
+        binding.button2.setOnClickListener {
+            binding.textView2.visibility = View.VISIBLE;
+            binding.textView4.visibility = View.VISIBLE;
+            binding.textView3.visibility = View.VISIBLE;
 
-        val button = view.findViewById<TextView>(R.id.button2)
-        button.setOnClickListener {
-            textView2.visibility = View.VISIBLE;
         }
     }
 
