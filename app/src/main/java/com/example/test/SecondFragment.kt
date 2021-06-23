@@ -38,6 +38,7 @@ private var _binding: FragmentSecondBinding? = null
             binding.textView2.visibility = View.VISIBLE;
             binding.textView4.visibility = View.VISIBLE;
             binding.textView3.visibility = View.VISIBLE;
+            binding.imageView.visibility = View.VISIBLE;
 
         }
     }

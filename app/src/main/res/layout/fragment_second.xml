@@ -72,6 +72,13 @@
                 android:visibility="invisible"
                 app:layout_constrainedHeight="false" />
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:src="@drawable/signature"
+                android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button_third"
                 android:layout_width="wrap_content"
