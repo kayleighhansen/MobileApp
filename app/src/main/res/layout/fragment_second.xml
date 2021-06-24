@@ -26,10 +26,14 @@
         tools:layout_editor_absoluteY="-57dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="112dp"
-            android:hint="Name" />
+            android:hint="Name"
+            android:inputType="text"
+            android:rotationY="0"
+            android:singleLine="true" />
 
         <Button
             android:id="@+id/button2"
@@ -49,7 +53,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="20dp"
-                android:text="BBS Medical"
                 android:visibility="invisible"
                 app:layout_constrainedHeight="false" />
 
@@ -59,7 +62,6 @@
                 android:layout_height="190dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="20dp"
-                android:text="To whom it may concern,  Please excuse ________ from work today. It appears that ______ has symptoms of a viral disease that would be a danger to their coworkers as well as a hazard to their own health. It is my professional opinion that ______ should stay home and relax in order to return to full function. I will notify you if their test results come back positive and they require more time off of work to recover.  "
                 android:visibility="invisible"
                 app:layout_constrainedHeight="false" />
 
@@ -68,7 +70,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Dr Benjamin Smith"
                 android:visibility="invisible"
                 app:layout_constrainedHeight="false" />
 
@@ -76,6 +77,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="160dp"
                 android:layout_height="46dp"
+                android:layout_marginBottom="40dp"
                 android:src="@drawable/signature"
                 android:visibility="invisible" />
 
