@@ -59,7 +59,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="254dp"
-                android:layout_height="190dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="20dp"
                 android:visibility="invisible"
@@ -70,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
+                android:text="Dr Benjamin Smith"
                 android:visibility="invisible"
                 app:layout_constrainedHeight="false" />
 
