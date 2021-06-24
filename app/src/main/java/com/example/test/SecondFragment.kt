@@ -47,7 +47,7 @@ private var _binding: FragmentSecondBinding? = null
             var doctorsNote = "To whom it may concern,\n" +
                     "\n" +
                     "Please excuse " + username + " from work today. It appears that " + username +
-                    "has symptoms of a viral disease that would be a danger to their coworkers as well as a hazard to their own health. " +
+                    " has symptoms of a viral disease that would be a danger to their coworkers as well as a hazard to their own health. " +
                     "It is my professional opinion that" + username +
                     " should stay home and relax in order to return to full function. " +
                     "I will notify you if their test results come back positive and they require more time off of work to recover. \n"
