@@ -34,7 +34,6 @@ private var _binding: FragmentSecondBinding? = null
 
     /** Called when the user touches the button */
      private fun newNote() {
-        binding.button2.setOnClickListener {
             binding.textView2.visibility = View.VISIBLE
             binding.textView4.visibility = View.VISIBLE
             binding.textView3.visibility = View.VISIBLE
@@ -48,7 +47,7 @@ private var _binding: FragmentSecondBinding? = null
                     "\n" +
                     "Please excuse " + username + " from work today. It appears that " + username +
                     " has symptoms of a viral disease that would be a danger to their coworkers as well as a hazard to their own health. " +
-                    "It is my professional opinion that" + username +
+                    "It is my professional opinion that " + username +
                     " should stay home and relax in order to return to full function. " +
                     "I will notify you if their test results come back positive and they require more time off of work to recover. \n"
 
@@ -57,11 +56,6 @@ private var _binding: FragmentSecondBinding? = null
             binding.textView2.text = doctorsNote
             binding.textView4.text = medical
             binding.textView3.text = doctor
-
-
-
-
-        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
