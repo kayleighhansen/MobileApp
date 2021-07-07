@@ -5,7 +5,7 @@ Ever wanted to call in sick when you weren't? Need a really good excuse to be la
 
 The first functionality is a Doctor's Note. Simply put in your name and answer some questions about you and your fake illness. Dr. BS will write you a great doctor's note. 
 
-[Software Demo Video: First Draft](hhttp://youtu.be/wFH-capcxIw?hd=1)
+[Software Demo Video: First Draft](https://youtu.be/wFH-capcxIw)
 
 # Development Environment
 
